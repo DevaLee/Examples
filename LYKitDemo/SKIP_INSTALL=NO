@@ -1,0 +1,6 @@
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild archive -project LYKitDemo.xcodeproj LYKitDemo Release "generic/platform=iOS Simulator" ../archives/LYKitDemo.framework-iphonesimulator.xcarchive
+
+Build settings from command line:
+    generic/platform = iOS Simulator
+

@@ -17,6 +17,14 @@
 		84EA65EA254D027D00FB98D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84EA65E8254D027D00FB98D2 /* LaunchScreen.storyboard */; };
 		84EA65F5254D027E00FB98D2 /* LYCalculatorTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EA65F4254D027E00FB98D2 /* LYCalculatorTestTests.swift */; };
 		84EA6600254D027E00FB98D2 /* LYCalculatorTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EA65FF254D027E00FB98D2 /* LYCalculatorTestUITests.swift */; };
+		AD7E2EF725F7C169006E87EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7E2EF625F7C169006E87EB /* AppDelegate.swift */; };
+		AD7E2EF925F7C169006E87EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7E2EF825F7C169006E87EB /* SceneDelegate.swift */; };
+		AD7E2EFB25F7C169006E87EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7E2EFA25F7C169006E87EB /* ViewController.swift */; };
+		AD7E2EFE25F7C169006E87EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD7E2EFC25F7C169006E87EB /* Main.storyboard */; };
+		AD7E2F0025F7C16D006E87EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD7E2EFF25F7C16D006E87EB /* Assets.xcassets */; };
+		AD7E2F0325F7C16D006E87EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD7E2F0125F7C16D006E87EB /* LaunchScreen.storyboard */; };
+		AD7E2F0E25F7C16D006E87EB /* LYXCframeTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7E2F0D25F7C16D006E87EB /* LYXCframeTestTests.swift */; };
+		AD7E2F1925F7C16E006E87EB /* LYXCframeTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7E2F1825F7C16E006E87EB /* LYXCframeTestUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +41,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = 84EA65D9254D027B00FB98D2;
 			remoteInfo = LYCalculatorTest;
+		};
+		AD7E2F0A25F7C16D006E87EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84EA65D2254D027B00FB98D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD7E2EF325F7C169006E87EB;
+			remoteInfo = LYXCframeTest;
+		};
+		AD7E2F1525F7C16E006E87EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84EA65D2254D027B00FB98D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD7E2EF325F7C169006E87EB;
+			remoteInfo = LYXCframeTest;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -66,6 +88,20 @@
 		84EA65FB254D027E00FB98D2 /* LYCalculatorTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYCalculatorTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84EA65FF254D027E00FB98D2 /* LYCalculatorTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYCalculatorTestUITests.swift; sourceTree = "<group>"; };
 		84EA6601254D027E00FB98D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD7E2EF425F7C169006E87EB /* LYXCframeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYXCframeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD7E2EF625F7C169006E87EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD7E2EF825F7C169006E87EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AD7E2EFA25F7C169006E87EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AD7E2EFD25F7C169006E87EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD7E2EFF25F7C16D006E87EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD7E2F0225F7C16D006E87EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD7E2F0425F7C16D006E87EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD7E2F0925F7C16D006E87EB /* LYXCframeTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYXCframeTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD7E2F0D25F7C16D006E87EB /* LYXCframeTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYXCframeTestTests.swift; sourceTree = "<group>"; };
+		AD7E2F0F25F7C16D006E87EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD7E2F1425F7C16E006E87EB /* LYXCframeTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYXCframeTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD7E2F1825F7C16E006E87EB /* LYXCframeTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYXCframeTestUITests.swift; sourceTree = "<group>"; };
+		AD7E2F1A25F7C16E006E87EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +127,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AD7E2EF125F7C169006E87EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD7E2F0625F7C16D006E87EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD7E2F1125F7C16E006E87EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -100,6 +157,9 @@
 				84EA65DC254D027B00FB98D2 /* LYCalculatorTest */,
 				84EA65F3254D027E00FB98D2 /* LYCalculatorTestTests */,
 				84EA65FE254D027E00FB98D2 /* LYCalculatorTestUITests */,
+				AD7E2EF525F7C169006E87EB /* LYXCframeTest */,
+				AD7E2F0C25F7C16D006E87EB /* LYXCframeTestTests */,
+				AD7E2F1725F7C16E006E87EB /* LYXCframeTestUITests */,
 				84EA65DB254D027B00FB98D2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -110,6 +170,9 @@
 				84EA65DA254D027B00FB98D2 /* LYCalculatorTest.app */,
 				84EA65F0254D027E00FB98D2 /* LYCalculatorTestTests.xctest */,
 				84EA65FB254D027E00FB98D2 /* LYCalculatorTestUITests.xctest */,
+				AD7E2EF425F7C169006E87EB /* LYXCframeTest.app */,
+				AD7E2F0925F7C16D006E87EB /* LYXCframeTestTests.xctest */,
+				AD7E2F1425F7C16E006E87EB /* LYXCframeTestUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -145,6 +208,38 @@
 				84EA6601254D027E00FB98D2 /* Info.plist */,
 			);
 			path = LYCalculatorTestUITests;
+			sourceTree = "<group>";
+		};
+		AD7E2EF525F7C169006E87EB /* LYXCframeTest */ = {
+			isa = PBXGroup;
+			children = (
+				AD7E2EF625F7C169006E87EB /* AppDelegate.swift */,
+				AD7E2EF825F7C169006E87EB /* SceneDelegate.swift */,
+				AD7E2EFA25F7C169006E87EB /* ViewController.swift */,
+				AD7E2EFC25F7C169006E87EB /* Main.storyboard */,
+				AD7E2EFF25F7C16D006E87EB /* Assets.xcassets */,
+				AD7E2F0125F7C16D006E87EB /* LaunchScreen.storyboard */,
+				AD7E2F0425F7C16D006E87EB /* Info.plist */,
+			);
+			path = LYXCframeTest;
+			sourceTree = "<group>";
+		};
+		AD7E2F0C25F7C16D006E87EB /* LYXCframeTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD7E2F0D25F7C16D006E87EB /* LYXCframeTestTests.swift */,
+				AD7E2F0F25F7C16D006E87EB /* Info.plist */,
+			);
+			path = LYXCframeTestTests;
+			sourceTree = "<group>";
+		};
+		AD7E2F1725F7C16E006E87EB /* LYXCframeTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AD7E2F1825F7C16E006E87EB /* LYXCframeTestUITests.swift */,
+				AD7E2F1A25F7C16E006E87EB /* Info.plist */,
+			);
+			path = LYXCframeTestUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,13 +299,66 @@
 			productReference = 84EA65FB254D027E00FB98D2 /* LYCalculatorTestUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		AD7E2EF325F7C169006E87EB /* LYXCframeTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD7E2F2125F7C16E006E87EB /* Build configuration list for PBXNativeTarget "LYXCframeTest" */;
+			buildPhases = (
+				AD7E2EF025F7C169006E87EB /* Sources */,
+				AD7E2EF125F7C169006E87EB /* Frameworks */,
+				AD7E2EF225F7C169006E87EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LYXCframeTest;
+			productName = LYXCframeTest;
+			productReference = AD7E2EF425F7C169006E87EB /* LYXCframeTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD7E2F0825F7C16D006E87EB /* LYXCframeTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD7E2F2225F7C16E006E87EB /* Build configuration list for PBXNativeTarget "LYXCframeTestTests" */;
+			buildPhases = (
+				AD7E2F0525F7C16D006E87EB /* Sources */,
+				AD7E2F0625F7C16D006E87EB /* Frameworks */,
+				AD7E2F0725F7C16D006E87EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD7E2F0B25F7C16D006E87EB /* PBXTargetDependency */,
+			);
+			name = LYXCframeTestTests;
+			productName = LYXCframeTestTests;
+			productReference = AD7E2F0925F7C16D006E87EB /* LYXCframeTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AD7E2F1325F7C16E006E87EB /* LYXCframeTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD7E2F2325F7C16E006E87EB /* Build configuration list for PBXNativeTarget "LYXCframeTestUITests" */;
+			buildPhases = (
+				AD7E2F1025F7C16E006E87EB /* Sources */,
+				AD7E2F1125F7C16E006E87EB /* Frameworks */,
+				AD7E2F1225F7C16E006E87EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD7E2F1625F7C16E006E87EB /* PBXTargetDependency */,
+			);
+			name = LYXCframeTestUITests;
+			productName = LYXCframeTestUITests;
+			productReference = AD7E2F1425F7C16E006E87EB /* LYXCframeTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		84EA65D2254D027B00FB98D2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1200;
+				LastSwiftUpdateCheck = 1230;
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
 					84EA65D9254D027B00FB98D2 = {
@@ -223,6 +371,17 @@
 					84EA65FA254D027E00FB98D2 = {
 						CreatedOnToolsVersion = 12.0;
 						TestTargetID = 84EA65D9254D027B00FB98D2;
+					};
+					AD7E2EF325F7C169006E87EB = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					AD7E2F0825F7C16D006E87EB = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = AD7E2EF325F7C169006E87EB;
+					};
+					AD7E2F1325F7C16E006E87EB = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = AD7E2EF325F7C169006E87EB;
 					};
 				};
 			};
@@ -242,6 +401,9 @@
 				84EA65D9254D027B00FB98D2 /* LYCalculatorTest */,
 				84EA65EF254D027E00FB98D2 /* LYCalculatorTestTests */,
 				84EA65FA254D027E00FB98D2 /* LYCalculatorTestUITests */,
+				AD7E2EF325F7C169006E87EB /* LYXCframeTest */,
+				AD7E2F0825F7C16D006E87EB /* LYXCframeTestTests */,
+				AD7E2F1325F7C16E006E87EB /* LYXCframeTestUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -265,6 +427,30 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		84EA65F9254D027E00FB98D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD7E2EF225F7C169006E87EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD7E2F0325F7C16D006E87EB /* LaunchScreen.storyboard in Resources */,
+				AD7E2F0025F7C16D006E87EB /* Assets.xcassets in Resources */,
+				AD7E2EFE25F7C169006E87EB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD7E2F0725F7C16D006E87EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD7E2F1225F7C16E006E87EB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -300,6 +486,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AD7E2EF025F7C169006E87EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD7E2EFB25F7C169006E87EB /* ViewController.swift in Sources */,
+				AD7E2EF725F7C169006E87EB /* AppDelegate.swift in Sources */,
+				AD7E2EF925F7C169006E87EB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD7E2F0525F7C16D006E87EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD7E2F0E25F7C16D006E87EB /* LYXCframeTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD7E2F1025F7C16E006E87EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD7E2F1925F7C16E006E87EB /* LYXCframeTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -312,6 +524,16 @@
 			isa = PBXTargetDependency;
 			target = 84EA65D9254D027B00FB98D2 /* LYCalculatorTest */;
 			targetProxy = 84EA65FC254D027E00FB98D2 /* PBXContainerItemProxy */;
+		};
+		AD7E2F0B25F7C16D006E87EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD7E2EF325F7C169006E87EB /* LYXCframeTest */;
+			targetProxy = AD7E2F0A25F7C16D006E87EB /* PBXContainerItemProxy */;
+		};
+		AD7E2F1625F7C16E006E87EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD7E2EF325F7C169006E87EB /* LYXCframeTest */;
+			targetProxy = AD7E2F1525F7C16E006E87EB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -328,6 +550,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				84EA65E9254D027D00FB98D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		AD7E2EFC25F7C169006E87EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD7E2EFD25F7C169006E87EB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD7E2F0125F7C16D006E87EB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD7E2F0225F7C16D006E87EB /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -586,6 +824,126 @@
 			};
 			name = Release;
 		};
+		AD7E2F1B25F7C16E006E87EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LYXCframeTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dddd.LYXCframeTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD7E2F1C25F7C16E006E87EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LYXCframeTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dddd.LYXCframeTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AD7E2F1D25F7C16E006E87EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LYXCframeTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dddd.LYXCframeTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LYXCframeTest.app/LYXCframeTest";
+			};
+			name = Debug;
+		};
+		AD7E2F1E25F7C16E006E87EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LYXCframeTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dddd.LYXCframeTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LYXCframeTest.app/LYXCframeTest";
+			};
+			name = Release;
+		};
+		AD7E2F1F25F7C16E006E87EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LYXCframeTestUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dddd.LYXCframeTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LYXCframeTest;
+			};
+			name = Debug;
+		};
+		AD7E2F2025F7C16E006E87EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LYXCframeTestUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dddd.LYXCframeTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LYXCframeTest;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -621,6 +979,33 @@
 			buildConfigurations = (
 				84EA660B254D027E00FB98D2 /* Debug */,
 				84EA660C254D027E00FB98D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD7E2F2125F7C16E006E87EB /* Build configuration list for PBXNativeTarget "LYXCframeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD7E2F1B25F7C16E006E87EB /* Debug */,
+				AD7E2F1C25F7C16E006E87EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD7E2F2225F7C16E006E87EB /* Build configuration list for PBXNativeTarget "LYXCframeTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD7E2F1D25F7C16E006E87EB /* Debug */,
+				AD7E2F1E25F7C16E006E87EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD7E2F2325F7C16E006E87EB /* Build configuration list for PBXNativeTarget "LYXCframeTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD7E2F1F25F7C16E006E87EB /* Debug */,
+				AD7E2F2025F7C16E006E87EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
