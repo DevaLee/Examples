@@ -1,0 +1,8 @@
+// 1
+HEADER_SEARCH_PATHS =$(inherited)${SRCROOT}/SYTimer.framework/Headers
+// 2
+FRAMEWORK_SEARCH_PATHS = $(inherited) ${SRCROOT}
+// 3
+OTHER_LDFLAGS = $(inherited) -framework "SYTimer"
+// 4
+LD_RUNPATH_SEARCH_PATHS = $(inherited) ${SRCROOT}

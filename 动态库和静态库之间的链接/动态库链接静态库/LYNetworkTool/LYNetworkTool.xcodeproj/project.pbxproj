@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A82B2E572F25F3456E4A7BE /* libPods-LYNetworkTool.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B70CBCE84BAE071EF084C4F0 /* libPods-LYNetworkTool.a */; };
+		AD63BDC326934EC700D5A9B8 /* LYNetworkTool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD63BDB926934EC700D5A9B8 /* LYNetworkTool.framework */; };
+		AD63BDC826934EC700D5A9B8 /* LYNetworkToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD63BDC726934EC700D5A9B8 /* LYNetworkToolTests.m */; };
+		AD63BDCA26934EC700D5A9B8 /* LYNetworkTool.h in Headers */ = {isa = PBXBuildFile; fileRef = AD63BDBC26934EC700D5A9B8 /* LYNetworkTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD63BDD52693516700D5A9B8 /* LYAFNetworkTool.h in Headers */ = {isa = PBXBuildFile; fileRef = AD63BDD32693516700D5A9B8 /* LYAFNetworkTool.h */; };
+		AD63BDD62693516700D5A9B8 /* LYAFNetworkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = AD63BDD42693516700D5A9B8 /* LYAFNetworkTool.m */; };
+		AD63BDD926935A4D00D5A9B8 /* LYAppObject.m in Sources */ = {isa = PBXBuildFile; fileRef = AD63BDD826935A4D00D5A9B8 /* LYAppObject.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD63BDC426934EC700D5A9B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD63BDB026934EC700D5A9B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD63BDB826934EC700D5A9B8;
+			remoteInfo = LYNetworkTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		061F3BC977DC5FFCBF3427ED /* Pods-LYNetworkTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYNetworkTool.release.xcconfig"; path = "Target Support Files/Pods-LYNetworkTool/Pods-LYNetworkTool.release.xcconfig"; sourceTree = "<group>"; };
+		8F516BAF25A23F7771019AB9 /* Pods-LYNetworkTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYNetworkTool.debug.xcconfig"; path = "Target Support Files/Pods-LYNetworkTool/Pods-LYNetworkTool.debug.xcconfig"; sourceTree = "<group>"; };
+		AD63BDB926934EC700D5A9B8 /* LYNetworkTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LYNetworkTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD63BDBC26934EC700D5A9B8 /* LYNetworkTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYNetworkTool.h; sourceTree = "<group>"; };
+		AD63BDBD26934EC700D5A9B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD63BDC226934EC700D5A9B8 /* LYNetworkToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYNetworkToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD63BDC726934EC700D5A9B8 /* LYNetworkToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYNetworkToolTests.m; sourceTree = "<group>"; };
+		AD63BDC926934EC700D5A9B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD63BDD32693516700D5A9B8 /* LYAFNetworkTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYAFNetworkTool.h; sourceTree = "<group>"; };
+		AD63BDD42693516700D5A9B8 /* LYAFNetworkTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYAFNetworkTool.m; sourceTree = "<group>"; };
+		AD63BDD726935A4D00D5A9B8 /* LYAppObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYAppObject.h; sourceTree = "<group>"; };
+		AD63BDD826935A4D00D5A9B8 /* LYAppObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYAppObject.m; sourceTree = "<group>"; };
+		B70CBCE84BAE071EF084C4F0 /* libPods-LYNetworkTool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LYNetworkTool.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD63BDB626934EC700D5A9B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A82B2E572F25F3456E4A7BE /* libPods-LYNetworkTool.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD63BDBF26934EC700D5A9B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD63BDC326934EC700D5A9B8 /* LYNetworkTool.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD63BDAF26934EC700D5A9B8 = {
+			isa = PBXGroup;
+			children = (
+				AD63BDBB26934EC700D5A9B8 /* LYNetworkTool */,
+				AD63BDC626934EC700D5A9B8 /* LYNetworkToolTests */,
+				AD63BDBA26934EC700D5A9B8 /* Products */,
+				E198CB906FCF9722C207F004 /* Pods */,
+				D50BE4BB6D63A5A934744E7E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AD63BDBA26934EC700D5A9B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD63BDB926934EC700D5A9B8 /* LYNetworkTool.framework */,
+				AD63BDC226934EC700D5A9B8 /* LYNetworkToolTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD63BDBB26934EC700D5A9B8 /* LYNetworkTool */ = {
+			isa = PBXGroup;
+			children = (
+				AD63BDBC26934EC700D5A9B8 /* LYNetworkTool.h */,
+				AD63BDD32693516700D5A9B8 /* LYAFNetworkTool.h */,
+				AD63BDD42693516700D5A9B8 /* LYAFNetworkTool.m */,
+				AD63BDBD26934EC700D5A9B8 /* Info.plist */,
+			);
+			path = LYNetworkTool;
+			sourceTree = "<group>";
+		};
+		AD63BDC626934EC700D5A9B8 /* LYNetworkToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD63BDC726934EC700D5A9B8 /* LYNetworkToolTests.m */,
+				AD63BDC926934EC700D5A9B8 /* Info.plist */,
+				AD63BDD726935A4D00D5A9B8 /* LYAppObject.h */,
+				AD63BDD826935A4D00D5A9B8 /* LYAppObject.m */,
+			);
+			path = LYNetworkToolTests;
+			sourceTree = "<group>";
+		};
+		D50BE4BB6D63A5A934744E7E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B70CBCE84BAE071EF084C4F0 /* libPods-LYNetworkTool.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E198CB906FCF9722C207F004 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F516BAF25A23F7771019AB9 /* Pods-LYNetworkTool.debug.xcconfig */,
+				061F3BC977DC5FFCBF3427ED /* Pods-LYNetworkTool.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AD63BDB426934EC700D5A9B8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD63BDCA26934EC700D5A9B8 /* LYNetworkTool.h in Headers */,
+				AD63BDD52693516700D5A9B8 /* LYAFNetworkTool.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		AD63BDB826934EC700D5A9B8 /* LYNetworkTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD63BDCD26934EC700D5A9B8 /* Build configuration list for PBXNativeTarget "LYNetworkTool" */;
+			buildPhases = (
+				0D913EE827890658DA52F1C2 /* [CP] Check Pods Manifest.lock */,
+				AD63BDB426934EC700D5A9B8 /* Headers */,
+				AD63BDB526934EC700D5A9B8 /* Sources */,
+				AD63BDB626934EC700D5A9B8 /* Frameworks */,
+				AD63BDB726934EC700D5A9B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LYNetworkTool;
+			productName = LYNetworkTool;
+			productReference = AD63BDB926934EC700D5A9B8 /* LYNetworkTool.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AD63BDC126934EC700D5A9B8 /* LYNetworkToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD63BDD026934EC700D5A9B8 /* Build configuration list for PBXNativeTarget "LYNetworkToolTests" */;
+			buildPhases = (
+				AD63BDBE26934EC700D5A9B8 /* Sources */,
+				AD63BDBF26934EC700D5A9B8 /* Frameworks */,
+				AD63BDC026934EC700D5A9B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD63BDC526934EC700D5A9B8 /* PBXTargetDependency */,
+			);
+			name = LYNetworkToolTests;
+			productName = LYNetworkToolTests;
+			productReference = AD63BDC226934EC700D5A9B8 /* LYNetworkToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD63BDB026934EC700D5A9B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = bel;
+				TargetAttributes = {
+					AD63BDB826934EC700D5A9B8 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+					AD63BDC126934EC700D5A9B8 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+				};
+			};
+			buildConfigurationList = AD63BDB326934EC700D5A9B8 /* Build configuration list for PBXProject "LYNetworkTool" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD63BDAF26934EC700D5A9B8;
+			productRefGroup = AD63BDBA26934EC700D5A9B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD63BDB826934EC700D5A9B8 /* LYNetworkTool */,
+				AD63BDC126934EC700D5A9B8 /* LYNetworkToolTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD63BDB726934EC700D5A9B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD63BDC026934EC700D5A9B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D913EE827890658DA52F1C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LYNetworkTool-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD63BDB526934EC700D5A9B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD63BDD62693516700D5A9B8 /* LYAFNetworkTool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD63BDBE26934EC700D5A9B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD63BDC826934EC700D5A9B8 /* LYNetworkToolTests.m in Sources */,
+				AD63BDD926935A4D00D5A9B8 /* LYAppObject.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD63BDC526934EC700D5A9B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD63BDB826934EC700D5A9B8 /* LYNetworkTool */;
+			targetProxy = AD63BDC426934EC700D5A9B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AD63BDCB26934EC700D5A9B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AD63BDCC26934EC700D5A9B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AD63BDCE26934EC700D5A9B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F516BAF25A23F7771019AB9 /* Pods-LYNetworkTool.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = MQT5PJ7GA8;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking/AFNetworking.framework/Headers\"",
+					"\"${SRCROOT}/LGNetworkManagerTests\"",
+				);
+				INFOPLIST_FILE = LYNetworkTool/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dddd.LYNetworkTool;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD63BDCF26934EC700D5A9B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 061F3BC977DC5FFCBF3427ED /* Pods-LYNetworkTool.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = MQT5PJ7GA8;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = LYNetworkTool/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dddd.LYNetworkTool;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AD63BDD126934EC700D5A9B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MQT5PJ7GA8;
+				INFOPLIST_FILE = LYNetworkToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dddd.LYNetworkToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD63BDD226934EC700D5A9B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MQT5PJ7GA8;
+				INFOPLIST_FILE = LYNetworkToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dddd.LYNetworkToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD63BDB326934EC700D5A9B8 /* Build configuration list for PBXProject "LYNetworkTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD63BDCB26934EC700D5A9B8 /* Debug */,
+				AD63BDCC26934EC700D5A9B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD63BDCD26934EC700D5A9B8 /* Build configuration list for PBXNativeTarget "LYNetworkTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD63BDCE26934EC700D5A9B8 /* Debug */,
+				AD63BDCF26934EC700D5A9B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD63BDD026934EC700D5A9B8 /* Build configuration list for PBXNativeTarget "LYNetworkToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD63BDD126934EC700D5A9B8 /* Debug */,
+				AD63BDD226934EC700D5A9B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD63BDB026934EC700D5A9B8 /* Project object */;
+}
