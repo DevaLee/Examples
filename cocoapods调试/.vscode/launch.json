@@ -1,0 +1,15 @@
+{
+  "configurations": [
+    {
+    "name": "Debug CocoaPods Plugin",
+    "showDebuggerOutput": true,
+    "type": "Ruby",
+    "request": "launch",
+    "useBundler": true,
+    "cwd": "${workspaceRoot}/TestLibrary", // pod 命令执行的路径
+    "program": "${workspaceRoot}/CocoaPods/bin/pod",
+    "args": ["install", "--verbose"], // `pod` 命令的参数
+    }
+  ]
+}
+
