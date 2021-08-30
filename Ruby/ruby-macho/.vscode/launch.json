@@ -1,0 +1,15 @@
+{
+  "configurations": [
+    {
+      "name": "Debug Ruby Code",
+      "showDebuggerOutput": true,
+      "type": "Ruby",
+      "request": "launch",
+      "useBundler": true,
+      "stopOnEntry": false,
+      "cwd": "${workspaceRoot}",
+      "program": "${file}",
+      "args": [],
+    }
+  ]
+}

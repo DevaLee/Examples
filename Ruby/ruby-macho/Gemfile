@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+
+
+gem 'ruby-debug-ide'
+gem 'debase'
+gem 'rexml'
+gem 'ruby-macho'
+gem 'solargraph'
