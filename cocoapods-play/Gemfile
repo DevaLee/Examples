@@ -1,0 +1,11 @@
+# frozen_string_literal: true
+
+source "https://rubygems.org"
+
+# Specify your gem's dependencies in cocoapods-play.gemspec
+gemspec
+group :debugging do
+    gem 'ruby-debug-ide'
+    gem 'debase'
+
+end

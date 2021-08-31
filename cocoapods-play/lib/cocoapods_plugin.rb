@@ -1,0 +1,1 @@
+require "cocoapods/command/play" # 引入 play.rb

@@ -1,0 +1,16 @@
+{
+    "configurations": [
+      {
+        "name": "Debug CocoaPods Plugin",
+        "showDebuggerOutput": true,
+        "type": "Ruby",
+        "request": "launch",
+        "useBundler": true,
+        "cwd": "${workspaceRoot}", //命令执行的路径
+        "program": "${workspaceRoot}/bin/console", // 入口
+        "args": [
+          "play"
+        ]
+      }
+    ]
+}
